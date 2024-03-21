@@ -7,8 +7,8 @@ export default function Document() {
     <Html lang="en">
       <Head />
 
-      <body onDragStart="return false;" onDropStart="return false;"> 
-        <div style={{position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'transparent'}}></div> 
+      <body onDragStart="return false;" onDropStart="return false;" className="page-bod"> 
+       
         <Main />
         <NextScript />
        
