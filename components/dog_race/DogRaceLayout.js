@@ -186,6 +186,8 @@ const DogRaceLayout = () => {
           src="/dog_race_assets/js/CFicheBut.js"
           strategy="beforeInteractive"
         />
+ 
+
         <GamePage />
       </main>
     </div>
