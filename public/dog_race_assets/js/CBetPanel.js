@@ -245,6 +245,8 @@ function CBetPanel(){
        
         
         s_oMain.gotoMenu();
+window.location.href = '/';
+
         // window.addEventListener('DOMContentLoaded', () => {
         //     // Redirect after DOM has fully loaded
         //     window.location.replace('/');

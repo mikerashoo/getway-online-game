@@ -36,7 +36,7 @@ function CMenu(){
             _pStartPosFullscreen = {x:_pStartPosCredits.x + oSprite.width + 10,y:_pStartPosCredits.y};
         }else{
             _pStartPosFullscreen = {x:10 + oSprite.width/2,y:(oSprite.height / 2) + 10};
-        }
+        } 
         
         var doc = window.document;
         var docEl = doc.documentElement;
@@ -63,6 +63,8 @@ function CMenu(){
         createjs.Tween.get(_oFade).to({alpha:0}, 1000).call(function(){_oFade.visible = false;});  
         
         this.refreshButtonPos(s_iOffsetX,s_iOffsetY);
+
+        this._onButPlayRelease();
         
     };
     

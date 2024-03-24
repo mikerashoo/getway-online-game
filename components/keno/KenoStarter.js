@@ -130,15 +130,17 @@ export default function KenoStarter() {
     }, [gameData]);
     
   return (
-    <div> 
+    <> 
        
 
-       
+       <div className="check-fonts">
+            <p className="check-font-1">Lora</p>
+        </div> 
         
-        <canvas id="canvas" className='ani_hack' width="1024" height="1080"> </canvas>
+        <canvas id="canvas" className='ani_hack' width="1920" height="1080"> </canvas>
         <div data-orientation="landscape" className="orientation-msg-container"><p className="orientation-msg-text">Please rotate your device</p></div>
         <div id="block_game" style={{position: 'fixed', backgroundColor: 'transparent', top: 0, left: 0, width: '100%', height: '100%', display: 'none'}}></div>
         
-    </div>
+    </>
   )
 }

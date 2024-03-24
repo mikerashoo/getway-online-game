@@ -514,7 +514,14 @@ function CGame(oData){
     this.onExit = function(){
         
         this.unload();
-        s_oMain.gotoMenu();
+        s_oMain.gotoMenu(); 
+
+
+
+// Navigate to the target URL with a timestamp query parameter
+window.location.href = '/';
+  
+
     };
     
     this._onExitHelp = function () {

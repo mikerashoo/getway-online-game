@@ -7,9 +7,10 @@ import Image from "next/image";
 function GameDirectories() {
   return (
     <div className="grid grid-cols-2 text-center items-center justify-center justify-items-stretch">
-      <Link
+      <a
         href="/dog-race"
         className=""
+      
       >
         <Image
           src={DogRceIcon}
@@ -18,11 +19,12 @@ function GameDirectories() {
           alt="Dog race Icon"
           className="object-cover"
         />
-      </Link>
+      </a>
 
-      <Link
+      <a
         href="/keno"
         className=" bg-red-600"
+        
       >
         <Image
           src={KenoIcon}
@@ -31,7 +33,7 @@ function GameDirectories() {
           alt="Dog race Icon"
           className="object-cover"
         />
-      </Link>
+      </a>
     </div>
   );
 }

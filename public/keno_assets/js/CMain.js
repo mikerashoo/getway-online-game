@@ -158,7 +158,7 @@ function CMain(oData){
         _iCurResource++;
         var iPerc = Math.floor(_iCurResource/RESOURCE_TO_LOAD *100);
         _oPreloader.refreshLoader(iPerc);
-    };
+    }; 
     
     this._onAllImagesLoaded = function(){
         
