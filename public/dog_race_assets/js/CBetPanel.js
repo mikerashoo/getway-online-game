@@ -90,6 +90,7 @@ function CBetPanel(){
         }
             
        s_oStage.removeAllChildren(); 
+       window.location.replace('/');
     };
     
     this.refreshButtonPos = function (iNewX, iNewY) {

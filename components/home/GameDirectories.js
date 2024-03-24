@@ -1,13 +1,39 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
+import DogRceIcon from "@/assets/imgs/dog_race_icon.jpg";
+import KenoIcon from "@/assets/imgs/keno_icon.jpg";
+import Image from "next/image";
 
 function GameDirectories() {
   return (
-    <div style={{backgroundColor: 'white', display: 'flex', width: '100%', height: '100%'}}>
-        <Link href="/dog-race">Dog Racing</Link>
-        <Link href="/keno">Keno</Link>
+    <div className="grid grid-cols-2 text-center items-center justify-center justify-items-stretch">
+      <Link
+        href="/dog-race"
+        className=""
+      >
+        <Image
+          src={DogRceIcon}
+          width={200}
+          height={200}
+          alt="Dog race Icon"
+          className="object-cover"
+        />
+      </Link>
+
+      <Link
+        href="/keno"
+        className=" bg-red-600"
+      >
+        <Image
+          src={KenoIcon}
+          width={200}
+          height={200}
+          alt="Dog race Icon"
+          className="object-cover"
+        />
+      </Link>
     </div>
-  )
+  );
 }
 
-export default GameDirectories
+export default GameDirectories;

@@ -22,8 +22,8 @@ export default function Home() {
             />
             <meta name="msapplication-tap-highlight" content="no" />
           </Head>
-          <main>
-             
+          <main className="flex w-full h-full items-center justify-center">
+          
     
             <GameDirectories />
           </main>

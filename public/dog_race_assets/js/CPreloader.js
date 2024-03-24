@@ -93,6 +93,9 @@ function CPreloader() {
     };
 
     this.refreshLoader = function (iPerc) {
+        if(_oLoadingText === undefined) {
+            this.attachSprites();
+        }
         _oLoadingText.text = iPerc + "%";
         
         if (iPerc === 100) {

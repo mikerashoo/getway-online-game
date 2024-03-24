@@ -207,6 +207,7 @@ function CMain(oData) {
     this.gotoMenu = function () {
         _oMenu = new CMenu();
         _iState = STATE_MENU;
+     
     };
     
     this.gotoBetPanel = function(){

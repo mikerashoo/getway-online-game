@@ -77,6 +77,8 @@ function CMenu() {
         });
 
         this.refreshButtonPos(s_iOffsetX, s_iOffsetY);
+
+        this._onButPlayRelease();
     };
 
     this.unload = function () {

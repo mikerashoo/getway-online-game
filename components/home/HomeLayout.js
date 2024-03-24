@@ -20,10 +20,12 @@ const HomeLayout = () => {
         />
         <meta name="msapplication-tap-highlight" content="no" />
       </Head>
-      <main>
+      <main className="">
+      <div className="flex w-screen h-screen justify-center items-center bg-slate-600">
          
 
         <GameDirectories />
+        </div>
       </main>
     </div>
   );

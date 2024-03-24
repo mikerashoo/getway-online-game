@@ -1,5 +1,5 @@
 import Head from "next/head";
-import GamePage from "./GamePage";
+import DogRacePlay from "./DogRacePlay";
 import Script from "next/script";
 import {dogRaceMainStyles, dogRaceResetStyle, dogRaceIOsStyle, dogRaceOrientationStyle} from "@/styles/dog_race_css/dog-race-styles"; 
 const DogRaceLayout = () => {
@@ -213,7 +213,7 @@ const DogRaceLayout = () => {
           }}
         ></div>
 
-        <GamePage />
+        <DogRacePlay />
       </main>
     </div>
     </>

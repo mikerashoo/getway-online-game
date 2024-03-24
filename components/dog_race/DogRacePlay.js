@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import $ from 'jquery';
 
-export default function GameLoader() {
+export default function DogRacePlay() {
  
     const [gameData, setGameData] = useState(null);
 
@@ -54,7 +54,10 @@ export default function GameLoader() {
                 $(oMain).on("end_session", function (evt) {
                     if (window.getParamValue('ctl-arcade') === "true") {
                         window.parent.__ctlArcadeEndSession();
+                       
                     }
+
+                    
                 });
                 
                 $(oMain).on("bet_placed", function (evt, iTotBet) {
