@@ -1,14 +1,30 @@
 import Head from "next/head";
 import GamePage from "./GamePage";
 import Script from "next/script";
-
+import {dogRaceMainStyles, dogRaceResetStyle, dogRaceIOsStyle, dogRaceOrientationStyle} from "@/styles/dog_race_css/dog-race-styles"; 
 const DogRaceLayout = () => {
   return (
-    <div>
+    <>
+     <style jsx>{`
+        /* Include dogRaceMainStyles */
+        ${dogRaceMainStyles}
+
+        /* Include reset style */
+        ${dogRaceResetStyle}
+
+        /* Include ios style */
+        ${dogRaceIOsStyle}
+        
+
+        /* Include Orientation style */
+        ${dogRaceOrientationStyle}
+      `}</style> 
+
+    <div className="reset-styles">
       <Head>
         <title>CreateJS Game</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
+        {/* <meta name="theme-color" content="#000000" /> */}
         <meta
           name="description"
           content="Web site created using create-react-app"
@@ -200,6 +216,7 @@ const DogRaceLayout = () => {
         <GamePage />
       </main>
     </div>
+    </>
   );
 };
 

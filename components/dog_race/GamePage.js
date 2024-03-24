@@ -97,6 +97,7 @@ export default function GameLoader() {
     
   return (
     <div> 
+        
         <div className="check-fonts">
             <p className="check-font-1">1</p>
         </div> 

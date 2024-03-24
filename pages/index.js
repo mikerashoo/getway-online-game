@@ -9,7 +9,7 @@ export default function Home() {
           <Head>
             <title>CreateJS Game Home Page</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="theme-color" content="#fff" />
+            <meta name="theme-color"  />
             <meta
               name="description"
               content="Web site created using create-react-app"

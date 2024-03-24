@@ -7,7 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
 
-      <body onDragStart="return false;" onDropStart="return false;" className="page-bod"> 
+      <body onDragStart="return false;" onDropStart="return false;" className="body-style"> 
        
         <Main />
         <NextScript />
