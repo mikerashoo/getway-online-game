@@ -41,166 +41,207 @@ const DogRaceLayout = () => {
         <Script
           src="/dog_race_assets/js/jquery-3.1.1.min.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/createjs.min.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/howler.min.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/screenfull.min.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/platform.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/ios_fullscreen.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/ctl_utils.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/sprite_lib.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/greyhound_info.min.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/settings.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CGameSettings.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CLang.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CPreloader.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CMain.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CTextButton.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CToggle.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CGfxButton.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CMenu.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CGame.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CInterface.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CCreditsPanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CBetPanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CChipPanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CSimpleBetPanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CForecastPanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CBetList.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CFichesController.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CButBet.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CVector2.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CMsgBox.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CTrackBg.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CGreyhound.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CTweenController.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CRankingGui.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CArrivalPanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CWinPanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CLosePanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CButStartRace.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CAreYouSurePanel.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CCTLText.js"
           strategy="beforeInteractive"
+           async
         />
         <Script
           src="/dog_race_assets/js/CFicheBut.js"
           strategy="beforeInteractive"
+           async
         />
         <div
           style={{

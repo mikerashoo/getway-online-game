@@ -1,5 +1,12 @@
 ## To Exit a game:
-CBetPanel.unload()
+
+when playing:
+
+ this.onExit of CGame 
+
+On Menu 
+
+CBetPanel.onExit()
 
 ## To Skip Start
 Added this._onButPlayRelease(); to CMenu._init

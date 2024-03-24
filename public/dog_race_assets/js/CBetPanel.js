@@ -89,8 +89,7 @@ function CBetPanel(){
             _aPages[i].unload();
         }
             
-       s_oStage.removeAllChildren(); 
-       window.location.replace('/');
+       s_oStage.removeAllChildren();  
     };
     
     this.refreshButtonPos = function (iNewX, iNewY) {
@@ -243,8 +242,14 @@ function CBetPanel(){
     this.onExit = function(){
 		$(s_oMain).trigger("end_session");
         this.unload();
+       
         
         s_oMain.gotoMenu();
+        // window.addEventListener('DOMContentLoaded', () => {
+        //     // Redirect after DOM has fully loaded
+        //     window.location.replace('/');
+        // });
+        
     };
 
     this._onAudioToggle = function () {

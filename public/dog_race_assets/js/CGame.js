@@ -87,7 +87,7 @@ function CGame(iTotBet) {
         }
     };
     
-    this.onExit = function () {
+    this.onExit = function () { 
         setVolume("soundtrack", 1);
         
         s_oGame.unload();
@@ -96,6 +96,7 @@ function CGame(iTotBet) {
         $(s_oMain).trigger("end_session");
         $(s_oMain).trigger("show_interlevel_ad");
         $(s_oMain).trigger("share_event",[s_iCurMoney]);
+        window.location.replace('/');
     };
     
     this.gotoBetPanel = function(){
