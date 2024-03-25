@@ -1,6 +1,5 @@
-import Head from "next/head"; 
-import GameDirectories from "./GameDirectories";
-
+import Head from "next/head";
+import GameDirectories from "./GameDirectories"; 
 const HomeLayout = () => {
   return (
     <div>
@@ -20,11 +19,16 @@ const HomeLayout = () => {
         />
         <meta name="msapplication-tap-highlight" content="no" />
       </Head>
-      <main className="">
-      <div className="flex w-screen h-screen justify-center items-center bg-slate-600">
-         
-
-        <GameDirectories />
+      <main className="p-4 bg-gradient-to-r from-slate-900 to-slate-700">
+        <div className="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
+          <div className="min-h-28 ">
+            <div className="max-w-screen-lg mx-auto py-4">
+              <h2 className="font-bold text-center text-6xl text-emerald-500 font-display">
+                Getway Connect
+              </h2>
+              <GameDirectories />
+            </div>
+          </div>
         </div>
       </main>
     </div>
